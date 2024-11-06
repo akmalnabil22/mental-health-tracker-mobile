@@ -12,7 +12,6 @@ class LeftDrawer extends StatelessWidget {
       child: ListView(
         children: [
           DrawerHeader(
-            // TODO: Bagian drawer header
             decoration: BoxDecoration(
               color: Theme.of(context).colorScheme.primary,
             ),
@@ -40,7 +39,6 @@ class LeftDrawer extends StatelessWidget {
               ],
             ),
           ),
-            // TODO: Bagian routing
             ListTile(
               leading: const Icon(Icons.home_outlined),
               title: const Text('Halaman Utama'),
